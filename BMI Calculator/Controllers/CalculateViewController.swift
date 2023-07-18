@@ -37,7 +37,7 @@ class CalculateViewController: UIViewController {
         navigateToResult()
     }
     func navigateToResult() {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: "ResultViewController", bundle: nil)
         let destinationVC = storyboard.instantiateViewController(withIdentifier: "ResultViewController") as! ResultViewController
         destinationVC.bmiValue = calculatorBrain.getBMIValue()
         destinationVC.advice = calculatorBrain.getAdvice()
