@@ -36,6 +36,7 @@ class CalculateViewController: UIViewController {
         calculatorBrain.calculateBMI(height: height, weight: weight)
         navigateToResult()
     }
+    
     func navigateToResult() {
         let storyboard = UIStoryboard(name: "ResultViewController", bundle: nil)
         let destinationVC = storyboard.instantiateViewController(withIdentifier: "ResultViewController") as! ResultViewController
@@ -46,26 +47,3 @@ class CalculateViewController: UIViewController {
         self.present(destinationVC, animated: true)
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

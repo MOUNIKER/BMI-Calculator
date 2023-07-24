@@ -20,7 +20,7 @@ struct CalculatorBrain {
     
     func getColor() -> UIColor {
         return bmi?.color ?? #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
-    }                
+    }
     
     mutating func calculateBMI(height: Float, weight: Float) {
         let bmiValue = weight / (height * height)

@@ -45,6 +45,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		275F80922A6E521B00E75761 /* BMIDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B9F8F230D63EA0065EFD9 /* Models */,
+				AD0B9F8E230D63E10065EFD9 /* Views */,
+				AD0B9F8D230D63D70065EFD9 /* Controllers */,
+			);
+			path = BMIDetails;
+			sourceTree = "<group>";
+		};
+		275F80932A6E526700E75761 /* BMIResults */ = {
+			isa = PBXGroup;
+			children = (
+				275F80942A6E533E00E75761 /* Model */,
+				275F80952A6E534700E75761 /* View */,
+				275F80962A6E534F00E75761 /* Controller */,
+			);
+			path = BMIResults;
+			sourceTree = "<group>";
+		};
+		275F80942A6E533E00E75761 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD1DF94E2317C3F00056FB2D /* BMI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		275F80952A6E534700E75761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27C629C12A6695CE00E5B62D /* ResultViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		275F80962A6E534F00E75761 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				279863E52A6538DB00DE7723 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		AD0B9F6D230D61800065EFD9 = {
 			isa = PBXGroup;
 			children = (
@@ -66,9 +110,8 @@
 			children = (
 				AD0B9F79230D61800065EFD9 /* AppDelegate.swift */,
 				AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */,
-				AD0B9F8F230D63EA0065EFD9 /* Models */,
-				AD0B9F8E230D63E10065EFD9 /* Views */,
-				AD0B9F8D230D63D70065EFD9 /* Controllers */,
+				275F80922A6E521B00E75761 /* BMIDetails */,
+				275F80932A6E526700E75761 /* BMIResults */,
 				AD0B9F82230D61840065EFD9 /* Assets.xcassets */,
 				AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */,
 				AD0B9F87230D61840065EFD9 /* Info.plist */,
@@ -80,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				AD24EC902316CF2100FAC63A /* CalculateViewController.swift */,
-				279863E52A6538DB00DE7723 /* ResultViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -89,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				AD0B9F7F230D61800065EFD9 /* Main.storyboard */,
-				27C629C12A6695CE00E5B62D /* ResultViewController.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				AD24EC942316D88200FAC63A /* CalculatorBrain.swift */,
-				AD1DF94E2317C3F00056FB2D /* BMI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,7 +172,7 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1430;
-				ORGANIZATIONNAME = "Angela Yu";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					AD0B9F75230D61800065EFD9 = {
 						CreatedOnToolsVersion = 11.0;
